@@ -13,7 +13,7 @@ let resultGuest = 0
 
 homePoint1.addEventListener("click", function() {
     resultHome += 1  
-    homeScore.textContent = resultHome  
+    homeScore.textContent = resultHome 
 } )
 
 homePoint2.addEventListener("click", function() {
@@ -28,7 +28,7 @@ homePoint3.addEventListener("click", function() {
 
 guestPoint1.addEventListener("click", function() {
     resultGuest += 1
-    guestScore.textContent = resultGuest    
+    guestScore.textContent = resultGuest
 } )
 
 guestPoint2.addEventListener("click", function() {
